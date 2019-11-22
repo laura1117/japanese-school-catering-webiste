@@ -1,0 +1,311 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom:0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit
+  }
+  .h1, h1 {
+    font-size: 1.85rem;
+  }
+  .h2, h2 {
+    font-size: 1.75rem
+  }
+  .h3, h3 {
+    font-size: 1.5rem
+  }
+  .h4, h4 {
+    font-size: 1.25rem
+  }
+  .h5, h5 {
+    font-size: 1rem
+  }
+  .h6, h6 {
+    font-size: .75rem
+  }
+
+
+  .btn-pink {
+    color: #fff;
+    background-color: #de6581;
+    border-color: #de6581;
+  }
+  .btn-pink:hover {
+    color: #fff;
+    background-color: #aeaca8;
+    border-color: #aeaca8;
+    text-decoration: none;
+  }
+  .btn-pink.focus, .btn-pink:focus {
+  box-shadow:0 0 0 .2rem rgba(108,117,125,.5)
+  }
+
+
+  .btn-green {
+    color: #fff;
+    background-color: #88B04B;
+    border-color: #88B04B;
+  }
+  .btn-green:hover {
+    color: #fff;
+    background-color: #aeaca8;
+    border-color: #aeaca8;
+    text-decoration: none;
+  }
+  .btn-green.focus, .btn-pink:focus {
+  box-shadow:0 0 0 .2rem rgba(108,117,125,.5)
+  }
+
+  
+
+
+  .btn-outline-pink {
+    color: #de6581;
+    background-color: transparent;
+    background-image: none;
+    border-color: #de6581;
+  }
+  .btn-outline-pink:hover {
+    color: rgb(223, 223, 223);
+    background-color: #da5977;
+    border-color: #da5977;
+  }
+  .btn-outline-pink.focus, .btn-outline-pink:focus {
+  box-shadow:0 0 0 .2rem rgba(103, 103, 104, 0.5)
+  }
+
+
+
+  .button-image:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: transparent;
+    background-repeat:no-repeat;
+}
+
+.myButton:before{
+     background-image : url(../images/icons/chopsticks-32x31.png);
+     margin-right: 10px; 
+}
+
+
+.button-image-info:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+  background-repeat:no-repeat;
+}
+
+.myButtonInfo:before{
+   background-image : url(../images/icons/info-24x24-white.png);
+   margin-right: 5px; 
+}
+
+
+
+.button-image-inquiry:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+  background-repeat:no-repeat;
+}
+
+.myButtonInquiry:before{
+   background-image : url(../images/icons/inquiry-24x24-white.png);
+   margin-right: 5px; 
+}
+
+
+
+
+
+.button-logo:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+  background-repeat:no-repeat;
+}
+
+.myLogoBtn:before{
+   background-image : url(../images/icons/yoko-20x20-logo-vector-black.png);
+   margin-right: 5px; 
+}
+
+
+
+/* 
+
+.myLogoBtn:hover{
+  background-image : url(../images/yoko-20x20-logo-vector-white.png);
+  background-repeat: no-repeat; 
+}
+
+.myLogoBtn:hover {
+  background-image : url(../images/yoko-20x20-logo-vector-white.png);
+  background-repeat: no-repeat;
+}
+
+*/
+
+
+
+
+
+
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  font-size: 85%;
+  text-align: center;
+  padding-left: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  background-color: #faf6f7;
+  border-top: 1px solid #f1f8fe;
+  border-bottom: 1px solid #cbd2d8;
+  border-right: 1px solid #cbd2d8;
+}
+
+tr.head th {
+  color: #fff;
+  background-color: #de6581;
+  border-bottom: 2px solid #f5f0f4;
+  border-right: 1px solid #f5f0f4;
+  border-top: 1px solid #f5f0f4;
+  text-align: center;
+  text-shadow: 1px 1px 1px #666;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+}
+
+td {
+  text-shadow: 1px 1px 1px #fff;
+}
+
+tr.even td,
+tr.even th {
+  background-color: #f5f0f4;
+  /* #de6581  #f5e8f3*/
+}
+
+tr.head th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* classes > sub-pages... i.e. classes-sashimi-sushi.html */
+
+    /*
+  #de6581
+  #88B04B
+  */
+  
+  .tabs {
+    /* max-width: 640px; */
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  #tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #tab-button li {
+    display: table-cell;
+    width: 20%;
+  }
+
+  #tab-button li a {
+    display: block;
+    padding: .5em;
+    background-color: #f5f0f4;
+    /* background: #F6EDCF; */
+    border: 2px solid #de6581;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+  }
+
+  #tab-button li:not(:first-child) a {
+    border-left: none;
+  }
+
+  #tab-button li a:hover,
+  #tab-button .is-active a {
+    border-bottom-color: transparent;
+    background: #de6581;
+    color: white;
+    font-weight: 500;
+  }
+
+  .tab-contents {
+    padding: .5em 2em 1em;
+    border: 1px solid #daf1f9;
+  }
+
+  .tab-button-outer {
+    display: none;
+  }
+
+  .tab-contents {
+    margin-top: 20px;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .tab-button-outer {
+      position: relative;
+      z-index: 2;
+      display: block;
+    }
+
+    .tab-select-outer {
+      display: none;
+    }
+
+    .tab-contents {
+      position: relative;
+      top: -1px;
+      margin-top: 0;
+    }
+  }
+

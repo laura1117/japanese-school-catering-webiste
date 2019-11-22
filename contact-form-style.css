@@ -1,0 +1,212 @@
+/* STYLE SHEET FOR CONTACT FORM - YOKO'S KITCHEN */
+
+
+#contactForm {
+  border: 5px solid #de6581;
+  padding: 5px;
+  color: rgb(109, 107, 107);
+  /* background-image: url(../images/dark-wood.jpg);
+    background-color: burlywood; */
+  line-height: 1.4em;
+}
+
+#cateringForm {
+  border: 2px solid #de6581;
+  padding: 10px;
+  color: rgb(109, 107, 107);
+  /* background-image: url(../images/dark-wood.jpg);
+    background-color: burlywood; */
+  line-height: 1.2em;
+}
+
+input#fullName {
+  background-image: url("../images/icons/agent.png");
+  background-repeat: no-repeat;  
+  padding-left: 38px;  
+}
+
+input #email {
+  background-image: url("../images/icons/email-green.png");
+  background-repeat: no-repeat;
+  padding-left: 38px;
+}
+
+input#phone {
+  background-image: url("../images/icons/phone.png");
+  background-repeat: no-repeat;
+  /*
+  padding-left: 38px;
+  */
+}
+
+input#inputAddress, input#inputAddress2, input#inputZip {
+  background-image: url("../images/icons/push-pin.png");
+  background-repeat: no-repeat;  
+  padding-left: 38px;  
+}
+
+select {
+  margin-top: 0px;
+}
+
+#innerFormBorder {
+  border: 2px solid #88B04B;
+  padding: 10px;
+}
+
+#submit {
+  background-color: #de6581;
+  color: white;
+  width: 60px;
+  height: 40px;
+}
+
+#submit:hover {
+  color: #de6581;
+  background-color: white;
+}
+
+#fullName, #phone, #email, #inputAddress, #inputAddress2, #inputCity, #inputState, #inputZip, #gridCheck {
+  height: 35px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #88B04B #88B04B #de6581 #de6581;
+}
+
+textarea#comment {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #88B04B #88B04B #de6581 #de6581;
+  color: #de6581;
+  margin: 5px;
+}
+
+#cateringOL {
+  list-style-type: decimal;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input#input1, input#input2, input#input3 {
+  width: 25px;
+  height: 25px;
+}
+
+
+
+
+
+
+
+
+.radio {
+  /*
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  */
+
+
+  display: inline-block;
+  position: relative;
+  background-color: #de6581;
+  color: rgb(255, 255, 255);
+  top: 10px;
+  left: 0px;
+  height: 30px;
+  width: 30px;
+  border: 2px solid #88B04B;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 7px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.checkbox {
+  /*
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  */
+  position: relative;
+  background-color: #de6581;
+  color: rgb(255, 255, 255);
+  height: 30px;
+  width: 30px;
+  border: 2px solid #de6581;
+  cursor: pointer;
+  margin-right: 7px;
+  font-size: 20px;
+}
+
+.radio:checked::before {
+  position: absolute;
+  font: 20px/1 'Open Sans', sans-serif;
+  left: 11px;
+  top: 7px;
+  /* 
+  content: '\02143';
+  */
+  content: '\266B';
+  transform: rotate(40deg);
+  color: #de6581;
+}
+
+.checkbox:checked::before {
+  position: absolute;
+
+  /* 
+  font: 20px/1 'Open Sans', sans-serif; */
+  font-size: 30px;
+  left: 11px;
+  top: 7px;
+  /* \02143 \2605  */
+  content: '\2605';
+  transform: rotate(40deg);
+  color: #88B04B;
+}
+
+
+.radio:hover {
+  background-color: #88B04B;
+}
+
+.checkbox:hover {
+  background-color: #de6581;
+}
+
+.radio:checked {
+  background-color: #88B04B;
+}
+
+.checkbox:checked {
+  background-color: #88B04B;
+}
+
+label {
+  /* font: 15px/1.7 'Open Sans', sans-serif; */
+  font: 14px 'Open Sans', sans-serif;
+  color: rgb(143, 141, 141);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}

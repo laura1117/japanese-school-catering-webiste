@@ -1,0 +1,100 @@
+/* classes > sub-pages... i.e. classes-sashimi-sushi.html */
+
+    /*
+  #de6581
+  #88B04B
+  */
+  
+  .tabs {
+    /* max-width: 640px; */
+    max-width: 10%;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+  }
+
+
+
+  .tab-button-outer {
+    display: none;
+  }
+
+
+
+
+
+  #tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+
+
+  #tab-button li {
+    display: table-cell;
+    width: 20%;
+    
+  }
+
+  #tab-button li a {
+    display: block;
+    padding: .25em;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+  }
+
+  
+  #tab-button li:not(:first-child) a {
+    border-left: none;
+  }
+
+  #tab-button li a:hover,
+  #tab-button .is-active a {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: #de6581;
+    color: white;
+    font-weight: 400;
+  }
+
+  .tab-contents {
+    padding: .25em 1em .5em;
+    border: 2px solid #daf1f9;
+    margin-top: 10px;
+    background-color: #F6EDCF;
+  }
+
+
+
+
+
+  .tab-select-outer {
+    width: 150px;
+    
+  }
+
+  
+  @media screen and (min-width: 768px) {
+    .tab-button-outer {
+      position: relative;
+      z-index: 2;
+      display: block;
+    }
+
+    .tab-select-outer {
+      display: none;
+      
+    }
+
+    .tab-contents {
+      position: relative;
+      top: -1px;
+      margin-top: 0;
+    }
+  }
+
+  

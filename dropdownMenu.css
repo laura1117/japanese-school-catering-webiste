@@ -1,0 +1,122 @@
+/*
+for: Sushi Website
+ */
+
+ 
+ nav {
+  color: #fff;
+  background-color: #aeaca8;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  -moz-box-shadow: 5px 5px 5px #999;
+  -webkit-box-shadow: 5px 5px 5px #999;
+  box-shadow: 5px 5px 5px #999;
+  /* box-shadow: 1px 1px 2px 5px #de6581; 777777 */
+  margin-top: -70px;
+}
+
+ #navbarSupportedContent {
+  z-index: 1000;
+  font-size: 1.15em;
+ }
+ #navbarSupportedContent .navbar-nav li .dropdown-menu {
+	margin: 0px 5px;
+	padding: 5px;
+	background-color: rgba(231, 230, 230, 0.7);	
+}
+
+/* works */
+#navbarSupportedContent .navbar-nav li .dropdown-menu:hover {
+  background-color: #ffffff;
+}
+
+#navbarSupportedContent ul li a {
+  color: rgb(255, 255, 255);
+}
+
+/* Text Shadow Generator: https://cssgenerator.org/text-shadow-css-generator.html */
+#navbarSupportedContent li a:hover {
+  color: black;
+  text-shadow: 5px 2px 6px rgba(0,0,0,0.36);
+}
+
+#navbarSupportedContent a.active {
+  color: black;
+  text-shadow: none;
+}
+
+
+.bg-gray {
+	background-color: #aeaca8;
+	opacity: 1;
+}
+
+.text-dkgray {
+  color: rgb(44, 44, 44);
+}
+
+
+ #menuNav {
+  width: 100%;
+  background-color: #aeaca8;
+	border-radius: 10px;
+	z-index: 100;
+}
+
+.navbar-toggler-icon {
+	margin-top: -2px;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+
+
+/* removed: , nav-item, dropdown*/
+#ddMenu #ddSubMenu a{
+	display: block;
+  width: 100%;
+  margin: 5px auto;
+	clear: both;
+	font-weight: 400;
+	color: #ffffff;
+	background-color: #de6581;
+  border: .5px solid rgb(255, 255, 255);  
+}
+
+#ddMenu #ddSubMenu a:hover, nav-item:hover, dropdown:hover{
+	color: #ffffff;
+	background-color: #be576f;
+	border-radius: 5px;
+}
+
+a#ddMenu#ddSubmenu:hover, .dropdown-item:focus, .dropdown-item:hover, #ddMenu #ddSubMenu .ddItem a:focus, #ddMenu.ddItem:hover {
+	text-decoration: none;
+  box-shadow: 1px 12px 8px -12px rgba(0,0,0,0.7);
+}
+
+.dropdown-menu {
+	color: #212529;
+	list-style: none;
+  border: none;
+  /* 
+  border-radius:10px;
+  */
+  margin-left: -15px;
+}
+
+
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-variant: small-caps;
+  padding: 0px 5px;
+  text-shadow: 1px 1px 2px #424242;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+	color: #976705;
+	text-shadow: 1px 1px 2px #424242;
+}

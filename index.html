@@ -1,540 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description"
-    content="Japanese Cooking Classes start weekly. Join us each week for a different Japanese Dish. Teaching Traditional and Modern Japanese Cooking Techniques for over 15 Years in the Tampa Bay Area. Looking for Catering Services? We cater parties and celebrations such as Anniversaries, Graduations, Birthdays, as well as Gala Events up to 500 Guests." />
-  <meta name="keywords"
-    content="Japanese Cooking Classes, Japanese Catering, Traditional Japanese Cooking Techniques, Modern Japanese Cooking Techniques, Tampa Bay Japanese, Japanese Cooking, Catering for Parties, Catering for Celebrations, Catering for Anniversaries, Catering for Birthdays, catering for graduations, catering for galas, gala catering, caterers in tampa bay, japanese caterers" />
+    <title>Blog Template for Bootstrap</title>
 
-  <!-- Bootstrap CSS 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
-  <link href="css/bootstrap.min337.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="css/fontawesome.css">
-  -->
-  <link rel="stylesheet" type="text/css" href="css/css-reset.css" />
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-revised.css" />
-  <link rel="stylesheet" type="text/css" href="css/dropdownMenu.css" />
-  <link rel="stylesheet" type="text/css" href="css/page-style.css" />
-  <link rel="stylesheet" type="text/css" href="css/vote-style.css" />
-  <link rel="stylesheet" type="text/css" href="css/footer.css" />
-  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+  </head>
 
+  <body>
 
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
-  <link rel="stylesheet" type="text/css" href="css/fontawesome.css" />
-
-  <title>Home | Yoko's Kitchen | Japanese Cooking Classes</title>
-
-  <style>
-    a:hover {
-      text-decoration: none;
-    }
-
-    #vote {
-      width: 80%;
-      margin: 0px auto;
-    }
-
-    .text-dkgray {
-      color: rgb(44, 44, 44);
-    }
-  </style>
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-  <div id="wrapper">
-
-    <header>
+    <div class="blog-masthead">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1><img src="images/logo/header-logo-65x80-transparent-1.png" width="65" height="80"
-                class="d-inline-block align-top" alt="Yoko's Kitchen - Logo">
-              <span>Yoko's Kitchen </span>
-              <span id="headerText">Japanese Cooking Classes</span><br />
-              <span id="headerTextJapan">日本料理教室</span></h1>
-            <a href="tel:+17274590574">
-              <h2 id="h2PhoneNumber">(727) 459-0574 <br />
-                <span id="callToday"><i class="fas fa-phone"></i> Call</span><br />
-                <span><img src="images/logo/yoko-40x40-logo-vector-white.png" alt="Yoko's Logo" /></span></h2>
-            </a>
-          </div><!-- row -->
+        <nav class="nav">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#">New features</a>
+          <a class="nav-link" href="#">Press</a>
+          <a class="nav-link active" href="#">New hires</a>
+          <a class="nav-link" href="#">About</a>
+        </nav>
+      </div>
+    </div>
 
-          <div class="col-lg-12">
-            <!--Navbar -->
-            <div id="menuNav" class="">
-              <nav class="navbar navbar-expand-sm text-center">
-                <!-- <a class="navbar-brand" href="#">Menu</a> -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse bg-gray justify-content-center" id="navbarSupportedContent">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link text-dkgray active" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li id="ddMenu" class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Classes
-                      </a>
-                      <div class="dropdown-menu" id="ddSubMenu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item ddItem" href="classes.html">All Classes</a>
-                        <a class="dropdown-item ddItem" href="classes-sashimi-sushi.html">Sushi</a>
-                        <a class="dropdown-item ddItem" href="classes-vegetarian.html">Vegetarian</a>
-                        <a class="dropdown-item ddItem" href="#">Sauces</a>
-                        <a class="dropdown-item ddItem" href="#">Modern</a>
-                        <a class="dropdown-item ddItem" href="#">Traditional</a>
-                        <div class="dropdown-divider"></div>
-
-                        <a class="dropdown-item ddItem" href="gallery.html">Gallery</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="catering.html">Catering</a>
-                    </li>
-                    <li id="ddMenu" class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About
-                      </a>
-                      <div class="dropdown-menu" id="ddSubMenu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item ddItem" href="about.html">About</a>
-                        <a class="dropdown-item ddItem" href="blog-kobe-beef.html">Blogs: Kobe Beef</a>
-                        <a class="dropdown-item ddItem" href="blog-wasabi.html">Blogs: Wasabi</a>
-                      </div>
-                    </li>
-                    <li id="ddMenu" class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Recipes
-                      </a>
-                      <div class="dropdown-menu" id="ddSubMenu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item ddItem" href="#">All Recipes</a>
-                        <a class="dropdown-item ddItem" href="recipe-yakitoriChicken.html">Yakitori Chicken</a>
-                        <a class="dropdown-item ddItem" href="#">Recipe #2</a>
-                        <a class="dropdown-item ddItem" href="#">Recipe #3</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            <!--/.Navbar -->
-          </div>
-        </div><!-- row -->
-        <br />
-        <br />
-      </div><!-- container -->
-    </header>
-
-
-    <br />
-    <br />
-    <br />
+    <div class="blog-header">
+      <div class="container">
+        <h1 class="blog-title">The Bootstrap Blog</h1>
+        <p class="lead blog-description">An example blog template built with Bootstrap.</p>
+      </div>
+    </div>
 
     <div class="container">
+
       <div class="row">
-        <div class="col-lg-12">
-          <div class="col-md-6 float-left">
-            <h2><img src="images/logo/yoko-40x40-logo-vector-black-pink-revised.png" alt="Yoko's Logo" />Welcome</h2>
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <hr>
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <h2>Heading</h2>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <pre><code>Example code block</code></pre>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <h3>Sub-heading</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+            <ol>
+              <li>Vestibulum id ligula porta felis euismod semper.</li>
+              <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+              <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            </ol>
+            <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">Another blog post</h2>
+            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <blockquote>
+              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </blockquote>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          </div><!-- /.blog-post -->
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">New feature</h2>
+            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <ul>
+              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+              <li>Donec id elit non mi porta gravida at eget metus.</li>
+              <li>Nulla vitae elit libero, a pharetra augue.</li>
+            </ul>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+          </div><!-- /.blog-post -->
+
+          <nav class="blog-pagination">
+            <a class="btn btn-outline-primary" href="#">Older</a>
+            <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 offset-sm-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
           </div>
-          <div class="col-md-6 float-left">
-            <h2 class="text-right">
-              <a class="text-green btn btn-sm btn-outline-pink button-logo myLogoBtn" href="https://www.lauraleehall.com/" target="_blank" role="button">Back to www.LauraLeeHall.com</a>
-            </h2>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">March 2014</a></li>
+              <li><a href="#">February 2014</a></li>
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+            </ol>
           </div>
-
-          <div class="clearfix"></div>
-
-          <p><b>Yoko's Kitchen</b> has been <b>teaching Japanese Cuisine</b> for over 15 years in the Tampa Bay Area.
-            <b>Classes</b> at Yoko's Kitchen start every day! Come join us for some delicious fun while making priceless
-            memories!
-            We start with the <b>freshest ingredients</b> and our class tuition includes all ingredients needed.</p>
-
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/carousel/carousel-800x200-buffet-sashimi.jpg" class="d-block w-100"
-                  alt="Buffet Sashimi" />
-                <!-- 
-                    <img src="images/carousel/carousel-800x300-buffet-sashimi.jpg" class="d-block w-100" alt="Buffet Sashimi" />
-                  -->
-                <div class="carousel-caption">
-                  <h4>SUSHIMI BUFFET</h4>
-                  <h5 class="text-light">The Best In Tampa Bay!</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel/carousel-800x200-catering-banquet.jpg" class="d-block w-100"
-                  alt="Catering Banquet">
-                <!-- 
-                    <img src="images/carousel/carousel-800x300-catering-banquet.jpg" class="d-block w-100"
-                  alt="Catering Banquet">
-                  -->
-                <div class="carousel-caption">
-                  <h4 class="text-dkgray">BANQUET CATERING</h4>
-                  <h5 class="text-dkgray">The Best In Tampa Bay!</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel/carousel-800x200-crab-cakes-with-wasabi-cream.jpg" class="d-block w-100"
-                  alt="Crab Cakes with Wasabi Cream">
-                <!-- 
-                    <img src="images/carousel/carousel-800x300-crab-cakes-with-wasabi-cream.jpg" class="d-block w-100"
-                  alt="Crab Cakes with Wasabi Cream">
-
-                  -->
-                <div class="carousel-caption">
-                  <h4>CRAB CAKES WITH WASABI CREAM</h4>
-                  <h5 class="text-light">Check out our recipes!</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel/carousel-800x200-sashimi.jpg" class="d-block w-100" alt="Sashimi">
-                <!-- 
-                   <img src="images/carousel/carousel-800x300-sashimi.jpg" class="d-block w-100" alt="Sashimi">
-                  -->
-                <div class="carousel-caption">
-                  <h4>SUSHIMI</h4>
-                  <h5 class="text-light">The Freshest In Tampa Bay!</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel/carousel-800x200-sushi.jpg" class="d-block w-100" alt="Sushi">
-                <!-- 
-                   <img src="images/carousel/carousel-800x300-sushi.jpg" class="d-block w-100" alt="Sushi">
-                  -->
-                <div class="carousel-caption">
-                  <h4>SUSHI</h4>
-                  <h5 class="text-light">Sushi in Tampa Bay!</h5>
-                </div>
-              </div>
-              <!-- <div class="carousel-item">
-                <img src="https://place-hold.it/800x300/666/fff/000?text=Can you dig it?" class="d-block w-100"
-                  alt="...">
-              </div>
-              -->
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
           </div>
-        </div>
-      </div>
-    </div>
+        </div><!-- /.blog-sidebar -->
 
+      </div><!-- /.row -->
 
-    <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-sm-12">
-            <section class="courses">
-              <article>
-                <figure>
-                  <img class="img-fluid" src="images/bok-choi.jpg" alt="Bok Choi" />
-                  <figcaption>Bok Choi</figcaption>
-                </figure>
-                <hgroup>
-                  <h2>Japanese Cooking Classes</h2>
-                  <h3>Learn to Cook Japanese</h3>
-                </hgroup>
-                <p>Introductory to Expert Cooking Classes in <b>Traditional and Modern Japanese Cooking Techniques</b>.
-                  Single Classes are offered daily, such as Introduction to Japanese Sauces 101. Courses lasting up to 4
-                  weeks, such as Sashimi/Sushi and Sauces ~ Masterclass, are offered as well. Experience, first-hand,
-                  the many nuances of this fascinating oriental culture.</p>
-                <!-- <button type="button" class="btn btn-sm btn-pink"><a href="#">Course Description</a></button> &nbsp;  -->
+    </div><!-- /.container -->
 
-                <p class="text-right pr-4">
-                  <a class="btn btn-sm btn-green button-logo myLogoBtn" href="classes.html" role="button">VIEW
-                    CLASSES</a>
-                </p>
-              </article>
-
-              <article>
-                <figure>
-                  <img class="img-fluid" src="images/teriyaki.jpg" alt="Teriyaki Sauce" />
-                  <figcaption>Teriyaki Sauce</figcaption>
-                </figure>
-                <hgroup>
-                  <h2>Catering Services</h2>
-                  <h3>For All Occasions</h3>
-                </hgroup>
-                <p>Catering in Tampa Bay since 2005! No party or event is too big... such as weddings, ballroom
-                  gala's, or too small, such as graduations or birthdays and anniversaries. </p>
-                <p class="text-right pr-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="btn btn-sm btn-green button-logo myLogoBtn" href="catering.html"
-                    role="button">&nbsp;&nbsp;CATERING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                </p>
-              </article>
-
-              <article>
-                <h3 class="hideH2">Vote</h3>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-12">
-                      <section id="vote">
-                        <h3>VOTE for Your Favorite Class!</h3>
-
-                        <form method="POST" action="#">
-                          <img class="img-fluid" src="images/logo/logo-430x94.jpg" width="215" height="47"
-                            alt="Yoko's Kitchen Logo" />
-                          <br /><br />
-                          <label for="email" class="text-white"><b>TO WIN<br />Enter Your Email Address:</b>
-                          </label>
-                          <br />
-
-                          <input type="email" id="email">
-
-                          <br />
-                          <select>
-                            <option value="Sushi">Sushi</option>
-                            <option value="Vegetarian">Vegetarian</option>
-                            <option value="Sauces">Sauces</option>
-                            <option value="Traditional-Breakfast">Traditional Breakfast</option>
-                            <option value="ModernTwist-WasabiCrabCakes">Modern Wasabi Crab Cakes</option>
-                          </select>
-                          <input type="submit" value="Vote" id="submit">
-                        </form>
-                        <br />
-                        <p class="votePara"><small>* One person will be chosen from entry emails to win a free office
-                            lunch.<br />Up to 20 Employees. ONLY (1) one sample of Sashimi per person.</small></p>
-                      </section>
-                    </div>
-                  </div>
-                </div>
-
-              </article>
-              <br />
-              <br />
-              <br />
-            </section>
-
-
-
-          </div>
-          <div class="col-lg-4 col-sm-12">
-            <aside>
-
-              <section class="popular-recipes">
-                <h2>Popular Recipes</h2>
-                <a href="recipe-yakitoriChicken.html" class="animated delay-1s slideInRight slow">Yakitori &nbsp;
-                  <span>(grilled
-                    chicken)</span></a>
-                <a href="#" class="animated delay-2s slideInRight slow">Tsukune &nbsp; <span>(minced chicken
-                    patties)</span></a>
-                <a href="#" class="animated delay-3s slideInRight slow">Okonomiyaki &nbsp; <span>(savory
-                    pancakes)</span></a>
-                <a href="#" class="animated delay-4s slideInRight slow">Mizutaki &nbsp; <span>(chicken stew)</span></a>
-              </section>
-
-              <h2 class="text-center pr-4">
-                <a class="btn btn-sm btn-pink button-logo myLogoBtn" href="gallery.html" role="button">VIEW PHOTO
-                  GALLERY</a>
-              </h2>
-
-              <section class="contact-details">
-                <h2>Contact</h2>
-                <p>Yoko's Kitchen<br />
-                  27 U.S. Highway 19 N<br />
-                  Clearwater, FL 33764</p>
-                <p>Monday - Friday<br />
-                  8:00 AM - 5:00 PM</p>
-                <a href="tel:+17274590574">
-                  <h3><i class="fas fa-phone pink"></i> (727) 459-0574</h3>
-                </a>
-                <h4><a href="mailto:info@yokoskitchen.com">Info@YokosKitchen.com</a></h4>
-              </section>
-
-              <section class="popular-blogs">
-                <h2>Popular Blogs</h2>
-                <ul class="list-unstyled">
-                  <li class="media mt-3">
-                    <div class="media">
-                      <div class="media-left">
-                        <a href="blog-kobe-beef.html"> <img class="media-object mr-2" alt="64x64" width="50" height="50"
-                            src="images/kobe-beef-1-64x64.png" />
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <h5 class="mt-0 mb-1">Kobe Beef</h5> <small>Kobe beef is Wagyu beef from the Tajima
-                          strain of Japanese Black cattle.</small>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="media mt-3">
-                    <div class="media">
-                      <div class="media-left">
-                        <a href="#"> <img class="media-object mr-2" alt="64x64" width="50" height="50"
-                            src="images/sashimi-64x64.jpg" />
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <h5>Japanese Sashimi</h5> <small>Cras sit amet nibh libero, in gravida nulla.</small>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="media mt-3">
-                    <div class="media">
-                      <div class="media-left">
-                        <a href="blog-wasabi.html"> <img class="media-object mr-2" alt="64x64" width="50" height="50"
-                            src="images/wasabi-2-64x64.jpg" />
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <h5>Wasabi</h5> <small>Cras sit amet nibh libero, in gravida nulla.</small>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="media mt-3">
-                    <div class="media">
-                      <div class="media-left">
-                        <a href="#"> <img class="media-object mr-2" alt="64x64" width="50" height="50"
-                            src="images/Crab-Cakes-with-Wasabi-Cream-media-64x64.png" />
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <h5>Wasabi Crab Cakes</h5> <small>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                          scelerisque ante sollicitudin.</small>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="media mt-3">
-                    <div class="media">
-                      <div class="media-left">
-                        <a href="#"> <img class="media-object mr-2" alt="64x64" width="50" height="50"
-                            src="images/teriyaki-64x64.jpg" />
-                        </a>
-                      </div>
-                      <div class="media-body">
-                        <h5>Sauces</h5> <small>Cras sit amet nibh libero, in gravida nulla.</small>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </section>
-            </aside>
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-dark" id="pFooterMenu">
-            <p id="footerMenu">
-              <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="classes.html">CLASSES</a> | <a
-                href="catering.html">CATERING</a> | <a href="contact.html">CONTACT</a><br />
-            </p>
-            <p id="footerAddress">
-              <span>&copy; 2019 Yoko's Kitchen <b>|</b> Japanese Cooking Classes <b>|</b>
-                123 Somewhere Street, Tampa Florida 33634</span>
-            </p>
-          </div>
-        </div>
-      </div>
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
     </footer>
--->
-
-    <div class="container">
-      <!-- Footer -->
-      <footer class="footer-distributed">
-
-        <div class="footer-left">
-          <a href="contact.html" id="footer-logo">
-            <img src="images/logo/yoko-200x200-logo-vector-white.png" width=140" height="140" alt="Logo">
-            <!-- text --></a>
-          <h2 class="text-gradient-pink">Yoko's Kitchen </h2>
-          <h4 class="text-gradient-pink-rev">
-            Japanese Cooking Classes
-          </h4>
-
-        </div>
-        <div class="footer-center">
-          <div id="footerLinks">
-            <p class="footer-links"">
-          <a href=" index.html">Home</a>&nbsp;&nbsp;
-              |&nbsp;&nbsp;
-              <a href="about.html">About</a>&nbsp;&nbsp;
-              |&nbsp;&nbsp;
-              <a href="classes.html">Classes</a>&nbsp;&nbsp;
-              |&nbsp;&nbsp;
-              <a href="contact.html">Contact</a>&nbsp;
-            </p>
-            <br /><br />
-            <p class="footer-phone">
-              <i class="fa fa-phone"></i>
-              <a href="tel:+17274590574" class="text-white">
-                &#40;727&#41;
-                000-0000</a>
-            </p>
-            <br />
-            <p class="footer-email">
-              <i class="fa fa-envelope"></i>
-              <a href="mailto:info@YokosKitchen.com" class="text-white"
-                style="font-size: 1em;">Info@YokosKitchen.com</a>
-            </p>
-          </div>
-        </div>
-        <div class="footer-right text-center">
-          <p class="footer-company-about">
-            <span class="text-gradient-pink-rev">Japanese Cooking Classes</span>
-            <p>
-              <a class="btn btn-sm btn-pink" href="classes.html" role="button">Sign Up Today!</a>
-            </p>
-          </p>
-          <div class="footer-icons">
-            <a href="#"><i class="fab fa-facebook-square" style="font-size: 1.75em;" title="Facebook"></i></a>&nbsp;
-            <a href="#"><i class="fab fa-twitter" style="font-size: 1.75em;" title="Twitter"></i></a>&nbsp;
-            <a href="#"><i class="fab fa-linkedin-in" style="font-size: 1.75em;" title="LinkedIn"></i></a>&nbsp;
-            <a href="gallery.html"><i class="fa fa-image" style="font-size: 1.75em;"
-                title="Photo Gallery"></i></a>&nbsp;
-            <br />
-          </div>
-
-          <br />
-          <br />
-          <p id="footer-company-name-copyright" class="footer-company-name">&copy;
-            2019&nbsp;-&nbsp;<span>&nbsp;&nbsp;&nbsp;All Rights Reserved</span><br />
-            <span><a href="#">Privacy</a> | <a href="#">Legal</a></span></p>
-
-        </div>
-
-      </footer>
-    </div>
 
 
-  </div>
-
-
-
-</body>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
